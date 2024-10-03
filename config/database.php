@@ -28,7 +28,7 @@ $host = 'localhost';
 $user = 'root';
 $password = 'root';
 $base = 'perfil';
-$port = '3306';
+$port = getenv('PORT') ?: '3306';
 
 $conn = new mysqli($host, $user, $password, $base, $port);
 
