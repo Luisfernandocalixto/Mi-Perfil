@@ -18,11 +18,17 @@
 // }
 
 
-$host = getenv('DIRECTORIO');
-$user = getenv('USER');
-$password = getenv('PASSWORD');
-$base = getenv('BASE');
-$port = getenv('PORT');
+// $host = getenv('DIRECTORIO');
+// $user = getenv('USER');
+// $password = getenv('PASSWORD');
+// $base = getenv('BASE');
+// $port = getenv('PORT');
+
+$host = 'localhost';
+$user = 'root';
+$password = 'root';
+$base = 'perfil';
+$port = '3306';
 
 $conn = new mysqli($host, $user, $password, $base, $port);
 
