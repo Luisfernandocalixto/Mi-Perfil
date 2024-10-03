@@ -24,10 +24,10 @@
 // $base = getenv('BASE');
 // $port = getenv('PORT');
 
-$host = 'localhost';
-$user = 'root';
-$password = 'root';
-$base = 'perfil';
+$host = 'by6se5mlwmfqrar4ag9r-mysql.services.clever-cloud.com';
+$user = 'uoj3uxg0z3eiaapy';
+$password = 'nqwGOGZfRaR2zIe1X7Js';
+$base = 'by6se5mlwmfqrar4ag9r';
 $port = getenv('PORT') ?: '3306';
 
 $conn = new mysqli($host, $user, $password, $base, $port);
