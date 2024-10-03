@@ -24,11 +24,11 @@
 // $base = getenv('BASE');
 // $port = getenv('PORT');
 
-$host = 'by6se5mlwmfqrar4ag9r-mysql.services.clever-cloud.com';
-$user = 'uoj3uxg0z3eiaapy';
-$password = 'nqwGOGZfRaR2zIe1X7Js';
-$base = 'by6se5mlwmfqrar4ag9r';
-$port = getenv('PORT') ?: '3306';
+$host = 'ewr1.clusters.zeabur.com';
+$user = 'root';
+$password = 'ugd6NZ3lCe5BAc01W7QzvRfqb4928JpO';
+$base = 'zeabur';
+$port = getenv('PORT') ?: '30302';
 
 $conn = new mysqli($host, $user, $password, $base, $port);
 
