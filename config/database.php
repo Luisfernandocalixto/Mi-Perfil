@@ -24,7 +24,7 @@
 // $base = getenv('BASE');
 // $port = getenv('PORT');
 
-$conn = new mysqli('localhost', 'root', 'root', 'perfil');
+$conn = new mysqli('by6se5mlwmfqrar4ag9r-mysql.services.clever-cloud.com', 'uoj3uxg0z3eiaapy', 'nqwGOGZfRaR2zIe1X7Js', 'by6se5mlwmfqrar4ag9r');
 
 // Verificar conexión
 if ($conn->connect_error) {
