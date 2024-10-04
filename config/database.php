@@ -24,11 +24,11 @@
 // $base = getenv('BASE');
 // $port = getenv('PORT');
 
-$host = 'ewr1.clusters.zeabur.com';
+$host = 'mysql.railway.internal';
 $user = 'root';
-$password = 'ugd6NZ3lCe5BAc01W7QzvRfqb4928JpO';
-$base = 'zeabur';
-$port = getenv('PORT') ?: '30302';
+$password = 'vwNgzDCuynsjDXEgvCavOhQyCHjlfycN';
+$base = 'railway';
+$port = getenv('PORT') ?: '3306';
 
 $conn = new mysqli($host, $user, $password, $base, $port);
 
