@@ -24,13 +24,7 @@
 // $base = getenv('BASE');
 // $port = getenv('PORT');
 
-$host = 'mysql.railway.internal';
-$user = 'root';
-$password = 'vwNgzDCuynsjDXEgvCavOhQyCHjlfycN';
-$base = 'railway';
-$port = getenv('PORT') ?: '3306';
-
-$conn = new mysqli($host, $user, $password, $base, $port);
+$conn = new mysqli('localhost', 'root', 'root', 'perfil');
 
 // Verificar conexión
 if ($conn->connect_error) {
